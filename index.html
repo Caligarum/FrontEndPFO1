@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Mi Portafolio</h1>
+  </header>
+
+  <!-- Navegación -->
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#tarjetas">Tarjetas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Presentación personal -->
+    <section id="sobre-mi">
+      <!-- Comentario: Presentación personal con imagen descriptiva -->
+      <h2>Sobre mí</h2>
+      <p>Soy estudiante de Tecnicatura de Desarrollo de Software y me gusta la programación.</p>
+      <img src="img/Perfil.jpg" alt="Foto de perfil">
+    </section>
+
+    <!-- Tarjetas / Columnas -->
+    <section id="tarjetas">
+      <!-- Comentario: Tarjetas con imagen y texto, organizadas con Flexbox o Grid -->
+      <h2>Tarjetas</h2>
+      <div class="contenedor-tarjetas">
+        <div class="tarjeta">
+          <img src="img/tarjeta1.jpg" alt="Tarjeta 1">
+          <p>Como no entendí que se quería decir con tarjetas acá puse una tarjeta de cumpleaños.</p>
+        </div>
+        <div class="tarjeta">
+          <img src="img/tarjeta2.jpg" alt="Tarjeta 2">
+          <p>Lo mismo que con la otra tarjeta pero ahora puse una trajeta de boliche de los 90's.</s></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Aprendiendo React</li>
+        <li>Hobbies: videojuegos, cine, música</li>
+      </ul>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+      <!-- Comentario: Formulario con campos básicos -->
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" placeholder="Apellido" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="telefono" placeholder="Teléfono">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Películas favoritas -->
+    <section id="peliculas">
+      <!-- Comentario: Sección de películas favoritas -->
+      <h2>Mis Películas Favoritas</h2>
+      <div class="pelicula">
+        <h3>El Señor de los Anillos</h3>
+        <img src="img/SeñorAnillos.jpg" alt="El Señor de los Anillos">
+        <p>Una épica historia de aventura y fantasía.</p>
+      </div>
+      <div class="pelicula">
+        <h3>Matrix</h3>
+        <img src="img/Matrix.jpg" alt="Matrix">
+        <p>Un clásico de ciencia ficción sobre realidades alternativas.</p>
+      </div>
+      <div class="pelicula">
+        <h3>Interstellar</h3>
+        <img src="img/Interestelar.jpg" alt="Interstellar">
+        <p>Exploración espacial con un fuerte enfoque emocional.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Mi Portafolio - <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
