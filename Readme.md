@@ -18,7 +18,7 @@ Este es un Trabajo Práctico para la materia de Desarrollo de Sistemas Web (Fron
 - [x] Proyecto publicado utilizando GitHub Pages.
 - [x] En el "Readme.md" se indica la URL de GitHub Pages.
 
-🔗 URL de GitHub Pages: [https://miusuario.github.io/mi-portafolio](https://miusuario.github.io/mi-portafolio)
+🔗 URL de GitHub Pages: [https://github.com/Caligarum/FrontEndPFO1.git](https://github.com/Caligarum/FrontEndPFO1.git)
 
 
 ### Uso de Google Fonts:
